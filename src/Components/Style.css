@@ -1,0 +1,236 @@
+.navbarcss {
+    border: 2px solid #A35709;
+    background-color: #242320 !important;
+    border-end-end-radius: 8px;
+    border-end-start-radius: 8px;
+}
+
+/* .......................home css...........  */
+
+
+.titlecss::placeholder {
+    color: #F0E3CA;
+    /* padding-left: 10px; */
+    opacity: 1;
+  /* font-size: 19px; */
+  font-family: "Roboto";
+    
+}
+
+.detailcss::placeholder {
+    color: #F0E3CA;
+    /* padding-left: 10px; */
+    opacity: 1;
+    /* Firefox */
+    
+}
+
+.btncss {
+    border: 2px solid #FF8303;
+    border-radius: 2px;
+    background-color: #1B1A17;
+    width: 100%;
+    margin-top: -16px;
+    height: 70px;
+}
+
+.imgcss {
+    margin-top: -16px;
+    cursor: pointer;
+}
+
+.detailcss {
+    width: 100%;
+    border: 2px solid #A35709;
+    border-radius: 4px;
+    padding-left: 20px;
+    background-color: #242320;
+
+}
+
+.titlecss {
+    width: 100%;
+    border: 2px solid #A35709;
+    border-radius: 4px;
+    padding-left: 20px;
+    background-color: #242320;
+
+
+}
+
+.datacss {
+    margin-left: 3%;
+    margin-right: 3%;
+height: 400px;
+    margin-top: 5%;
+    border: 2px solid #A35709;
+    border-radius: 8px;
+ 
+    background-color: #242320;
+    
+  height: 400px;
+  overflow: scroll;
+  overflow-x: hidden;
+}
+
+.sd {
+    margin-top: 5%;
+}
+.notask{
+    margin-top: 13%;
+}
+
+@media only screen and (min-width: 778px) and (max-width: 1096px) {
+    .notask{
+        margin-top: 17%;
+    }
+}
+@media only screen and (min-width: 1104px) and (max-width: 1224px) {
+    .notask{
+        margin-top: 17%;
+    }
+}
+
+@media only screen and (min-width: 200px) and (max-width: 768px) {
+    .datacss {
+        margin-top: 4%;
+        border: none;
+
+
+        background-color: #33312d00;
+    }
+
+    .sd {
+        margin-top: 50px;
+    }
+   
+}
+
+.editcss:hover {
+    background-color: #A35709;
+
+
+}
+
+.dellcss:hover {
+    background-color: #A35709;
+
+
+}
+
+.updatecss:hover {
+    background-color: #A35709;
+
+}
+
+.editcss {
+    border: 2px solid #A35709;
+    border-radius: 8px;
+    height: 50%;
+
+    background-color: #242320;
+}
+
+.dellcss {
+    margin-left: 3px !important;
+    border: 2px solid #A35709 !important;
+    border-radius: 8px !important;
+    height: 50%;
+    background-color: #242320 !important;
+}
+
+.titlecssupdate {
+    font-size: 22px;
+    color: #F0E3CA;
+}
+
+.inputcss {
+
+    font-size: 14px;
+    color: #F0E3CA;
+}
+
+.editcsstwo {
+    color: #F0E3CA;
+    width: 100%;
+    border: none;
+    font-size: 22px;
+
+
+}
+.editcsstwoo::after{
+    border: none !important;
+}
+.editcsstwoo {
+    color: #F0E3CA;
+    width: 100%;
+    border: none;
+    font-size: 14px;
+
+}
+
+
+input {
+    color: #F0E3CA;
+    
+}
+
+.updatecss {
+    border: 2px solid #A35709;
+    border-radius: 8px;
+    color: #F0E3CA;
+    background-color: #242320;
+
+}
+
+.dilogabtncss {
+    border: 2px solid #FF8303 !important;
+    color: #D9D9D9 !important;
+    border-radius: 4px !important;
+    background-color: #242320 !important;
+}
+
+.css-1t1j96h-MuiPaper-root-MuiDialog-paper {
+    background-color: #1B1A17 !important;
+    border-radius: 0px !important;
+    border-top: 4.47px solid #A35709 !important;
+    padding: 3%;
+}
+
+
+/* .boxcss{
+ border: 2px solid #FF8303;
+ height: fit-content;
+ 
+ border-radius: 2px;
+ background-color: #1B1A17;
+} */
+
+
+.truncate-text {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    width: 200px;
+}
+
+
+/* width */
+::-webkit-scrollbar {
+    width: 9px
+    
+  }
+  
+  /* Track */
+  
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #1B1A17; 
+    border-radius: 8px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #242320; 
+  }
