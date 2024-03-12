@@ -190,13 +190,18 @@ input {
     background-color: #242320 !important;
 }
 
-.css-1t1j96h-MuiPaper-root-MuiDialog-paper  {
+.MuiDialog-paper  {
     background-color: #1B1A17 !important;
     border-radius: 0px !important;
     border-top: 4.47px solid #A35709 !important;
     padding: 3% !important;
 }
-
+/* .dilog{
+    background-color: #1B1A17 !important;
+    border-radius: 0px !important;
+    border-top: 4.47px solid #A35709 !important;
+    
+} */
 
 /* .boxcss{
  border: 2px solid #FF8303;

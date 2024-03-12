@@ -187,8 +187,10 @@ function Home() {
                                 open={open}
                                 onClose={handleClose}
                                 aria-labelledby="alert-dialog-title"
+                                
                                 aria-describedby="alert-dialog-description"
                             >
+                                
                                 <DialogTitle id="alert-dialog-title" sx={{ color: "white" }}>
                                     {"Delete this task?"}
                                 </DialogTitle>
@@ -199,6 +201,7 @@ function Home() {
                                         No
                                     </Button>
                                 </DialogActions>
+                                
                             </Dialog>
 
 
