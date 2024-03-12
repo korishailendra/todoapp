@@ -190,11 +190,11 @@ input {
     background-color: #242320 !important;
 }
 
-.css-1t1j96h-MuiPaper-root-MuiDialog-paper {
+.css-1t1j96h-MuiPaper-root-MuiDialog-paper  {
     background-color: #1B1A17 !important;
     border-radius: 0px !important;
     border-top: 4.47px solid #A35709 !important;
-    padding: 3%;
+    padding: 3% !important;
 }
 
 
