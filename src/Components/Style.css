@@ -12,9 +12,9 @@
     color: #F0E3CA;
     /* padding-left: 10px; */
     opacity: 1;
-  /* font-size: 19px; */
-  font-family: "Roboto";
-    
+    /* font-size: 19px; */
+    font-family: "Roboto";
+
 }
 
 .detailcss::placeholder {
@@ -22,7 +22,7 @@
     /* padding-left: 10px; */
     opacity: 1;
     /* Firefox */
-    
+
 }
 
 .btncss {
@@ -61,32 +61,32 @@
 .datacss {
     margin-left: 3%;
     margin-right: 3%;
-height: 400px;
+    
     margin-top: 5%;
     border: 2px solid #A35709;
     border-radius: 8px;
- 
     background-color: #242320;
-    
-  height: 400px;
-  overflow: scroll;
-  overflow-x: hidden;
+    height: 420px;
+    overflow: scroll;
+    overflow-x: hidden;
 }
 
 .sd {
     margin-top: 5%;
 }
-.notask{
+
+.notask {
     margin-top: 13%;
 }
 
 @media only screen and (min-width: 778px) and (max-width: 1096px) {
-    .notask{
+    .notask {
         margin-top: 17%;
     }
 }
+
 @media only screen and (min-width: 1104px) and (max-width: 1224px) {
-    .notask{
+    .notask {
         margin-top: 17%;
     }
 }
@@ -95,15 +95,15 @@ height: 400px;
     .datacss {
         margin-top: 4%;
         border: none;
-
-
         background-color: #33312d00;
+        height: 60vh;
+
     }
 
     .sd {
         margin-top: 50px;
     }
-   
+
 }
 
 .editcss:hover {
@@ -158,9 +158,11 @@ height: 400px;
 
 
 }
-.editcsstwoo::after{
+
+.editcsstwoo::after {
     border: none !important;
 }
+
 .editcsstwoo {
     color: #F0E3CA;
     width: 100%;
@@ -172,7 +174,7 @@ height: 400px;
 
 input {
     color: #F0E3CA;
-    
+
 }
 
 .updatecss {
@@ -188,14 +190,27 @@ input {
     color: #D9D9D9 !important;
     border-radius: 4px !important;
     background-color: #242320 !important;
+    text-transform: none !important;
+    font-family: "Roboto";
 }
 
-.MuiDialog-paper  {
+.MuiDialog-paper {
     background-color: #1B1A17 !important;
     border-radius: 0px !important;
     border-top: 4.47px solid #A35709 !important;
-    padding: 3% !important;
+    padding-left: 3% !important;
+    padding-right: 3% !important;
+    padding-top: 1% !important;
+    padding-bottom: 1% !important;
 }
+
+.grid-container {
+    padding: 2%;
+    /* padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 40px; */
+}
+
 /* .dilog{
     background-color: #1B1A17 !important;
     border-radius: 0px !important;
@@ -223,19 +238,18 @@ input {
 /* width */
 ::-webkit-scrollbar {
     width: 9px
-    
-  }
-  
-  /* Track */
-  
-   
-  /* Handle */
-  ::-webkit-scrollbar-thumb {
-    background: #1B1A17; 
+}
+
+/* Track */
+
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #1B1A17;
     border-radius: 8px;
-  }
-  
-  /* Handle on hover */
-  ::-webkit-scrollbar-thumb:hover {
-    background: #242320; 
-  }
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #242320;
+}

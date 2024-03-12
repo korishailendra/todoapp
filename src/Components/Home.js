@@ -126,7 +126,7 @@ function Home() {
                  }
                 <Grid container style={{ marginBottom: "1%" }}>
                     {todos.map((todo, index) => (
-                        <Grid item sm={4} xs={12} sx={{ padding: "2%" }} key={index}>
+                        <Grid item sm={4} xs={12} className="grid-container" key={index}>
 
 
 
@@ -196,8 +196,8 @@ function Home() {
                                 </DialogTitle>
 
                                 <DialogActions sx={{ alignSelf: "center" }}>
-                                    <Button onClick={() => deleteTodo(index)} className="dilogabtncss" >Yes</Button>
-                                    <Button onClick={handleClose} className="dilogabtncss" >
+                                    <Button onClick={() => deleteTodo(index)} size="small" className="dilogabtncss" >Yes</Button>
+                                    <Button onClick={handleClose} size="small"className="dilogabtncss" >
                                         No
                                     </Button>
                                 </DialogActions>
