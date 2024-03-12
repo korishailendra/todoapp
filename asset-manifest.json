@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/todoapp/static/css/main.43ae0f86.css",
+    "main.css": "/todoapp/static/css/main.babec456.css",
     "main.js": "/todoapp/static/js/main.4d18e7a7.js",
     "static/js/453.6c7c3976.chunk.js": "/todoapp/static/js/453.6c7c3976.chunk.js",
     "static/media/Group5.svg": "/todoapp/static/media/Group5.632dc702d7fea55a8cf38873c608c3d9.svg",
     "static/media/zerotask.svg": "/todoapp/static/media/zerotask.fc017936431e9658e0819d3f68ad1ae8.svg",
     "index.html": "/todoapp/index.html",
     "static/media/buttonadd.svg": "/todoapp/static/media/buttonadd.cee1c38dd8129813c4ef3d635e483d09.svg",
-    "main.43ae0f86.css.map": "/todoapp/static/css/main.43ae0f86.css.map",
+    "main.babec456.css.map": "/todoapp/static/css/main.babec456.css.map",
     "main.4d18e7a7.js.map": "/todoapp/static/js/main.4d18e7a7.js.map",
     "453.6c7c3976.chunk.js.map": "/todoapp/static/js/453.6c7c3976.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.43ae0f86.css",
+    "static/css/main.babec456.css",
     "static/js/main.4d18e7a7.js"
   ]
 }
